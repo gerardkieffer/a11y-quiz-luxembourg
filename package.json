@@ -1,0 +1,29 @@
+{
+  "name": "quizz-accessibilite-lu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quiz sur l'accessibilite numerique des sites publics luxembourgeois, base sur l'API de l'Observatoire de l'accessibilite numerique.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gerardkieffer/a11y-quiz-luxembourg"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch-data": "node scripts/fetch-data.mjs",
+    "capture-screenshots": "node scripts/capture-screenshots.mjs",
+    "generate-questions": "node scripts/generate-questions.mjs",
+    "build-data": "npm run fetch-data && npm run capture-screenshots && npm run generate-questions",
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}

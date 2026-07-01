@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz de l'accessibilité numérique au Luxembourg</title>
+  <meta name="description" content="Testez vos connaissances sur l'accessibilité des sites publics luxembourgeois, à partir des vrais audits officiels." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+  <div class="page">
+    <header class="site-header">
+      <h1>Quiz de l'accessibilité numérique au Luxembourg</h1>
+      <p class="tagline">Fouinez dans les audits officiels de l'Observatoire de l'accessibilité numérique, en mode jeu</p>
+    </header>
+
+    <main id="main">
+      <div id="error-banner" class="banner banner-error" role="alert" hidden></div>
+
+      <section id="screen-start" class="screen">
+        <h2 style="margin-top: 0;">Le facteur fun</h2>
+        <p>
+          « Accessibilité numérique », ça sonne un peu comme un rapport administratif : des
+          taux de conformité, des audits, des critères numérotés. Et pourtant, derrière ces
+          chiffres, il y a de vraies histoires. Des sites qui compliquent la vie sans le
+          vouloir, d'autres qui ont pensé à (presque) tout, et quelques surprises. Ce quiz vous
+          propose de les découvrir en jouant plutôt qu'en lisant un rapport.
+        </p>
+        <h2>Des vraies données</h2>
+        <p>
+          10 questions, basées sur des audits officiels de sites publics
+          luxembourgeois. Avant de répondre, ouvrez le site en question dans un nouvel onglet et
+          menez votre petite enquête : voyez si votre œil repère ce que les experts ont trouvé
+          (ou raté !). Vous avez 90 secondes par question.
+          <a href="faq.html">Voir les types de questions posées</a>.
+        </p>
+        <p class="disclaimer">
+          Petite précision : ce site est un projet personnel et non-officiel, à la fois un
+          test et une vitrine de l'API publique de l'Observatoire, entièrement bricolé
+           et vibe-codé en 2 heures. Pour les données de
+          référence, visitez
+          l'<a href="https://observatoire.accessibilite.public.lu/fr/home" target="_blank" rel="noopener">Observatoire de l'accessibilité numérique<span class="sr-only"> (nouvel onglet)</span></a>.
+        </p>
+        <button id="btn-start" type="button" class="btn btn-primary">Commencer le quiz</button>
+      </section>
+
+      <section id="screen-quiz" class="screen" hidden>
+        <div class="quiz-status">
+          <h2 id="progress-text" aria-live="polite">Question 1 / 10</h2>
+          <p id="score-text" aria-live="off">Score : 0</p>
+        </div>
+
+        <div class="timer-wrap" aria-hidden="true">
+          <div id="timer-bar" class="timer-bar"></div>
+        </div>
+        <p id="timer-announcer" class="sr-only" aria-live="polite"></p>
+
+        <p id="question-prompt" class="question-prompt" tabindex="-1"></p>
+
+        <div id="stale-warning" class="banner banner-warning" hidden></div>
+
+        <div id="question-media" class="question-media"></div>
+
+        <div id="question-links" class="question-links"></div>
+
+        <div id="choices" class="choices" role="group" aria-label="Réponses possibles"></div>
+
+        <div id="reveal" class="reveal" hidden>
+          <p id="reveal-text" aria-live="polite"></p>
+          <div id="reveal-links" class="question-links"></div>
+          <button id="btn-next" type="button" class="btn btn-primary">Question suivante</button>
+        </div>
+      </section>
+
+      <section id="screen-end" class="screen" hidden>
+        <h2 id="end-heading" tabindex="-1">Résultat</h2>
+        <p id="final-score" class="final-score"></p>
+        <button id="btn-replay" type="button" class="btn btn-primary">Rejouer</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Données issues de l'
+        <a href="https://observatoire.accessibilite.public.lu/fr/home" target="_blank" rel="noopener">Observatoire de l'accessibilité numérique<span class="sr-only"> (nouvel onglet)</span></a>
+        (Service information et presse, Gouvernement du Grand-Duché de Luxembourg). Les audits peuvent
+        dater de plus d'un an : la situation actuelle des sites peut avoir évolué depuis.
+      </p>
+      <p>
+        Ce projet est open source (licence MIT) - code source disponible sur
+        <a href="https://github.com/gerardkieffer/a11y-quiz-luxembourg" target="_blank" rel="noopener">GitHub<span class="sr-only"> (nouvel onglet)</span></a>.
+      </p>
+      <p>
+        Développé par Gérard Kieffer - <a href="https://key4.lu" target="_blank" rel="noopener">www.key4.lu - conseil en accessibilité numérique au Luxembourg<span class="sr-only"> (nouvel onglet)</span></a>.
+      </p>
+    </footer>
+  </div>
+
+  <script type="module" src="quiz.js"></script>
+</body>
+</html>

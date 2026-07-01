@@ -1,0 +1,1045 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This page describes the behavior of the free and open API of this observatory.",
+    "version": "1",
+    "title": "Digital Accessibility Observatory Luxembourg",
+    "termsOfService": "https://observatoire.accessibilite.public.lu/en/legalNotices",
+    "contact": {
+      "email": "accessibilite@sip.etat.lu"
+    },
+    "license": {
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "host": "observatoire.accessibilite.public.lu",
+  "basePath": "/api/1",
+  "tags": [
+    {
+      "name": "inventory",
+      "description": "inventory of websites and apps of Luxembourg public service organizations"
+    },
+    {
+      "name": "statements",
+      "description": "accessibility statements of websites and apps of Luxembourg public service organizations"
+    },
+    {
+      "name": "audits",
+      "description": "audits assessing the accessibility of websites and apps of Luxembourg public service organizations"
+    },
+    {
+      "name": "keyfigures",
+      "description": "displays the number of websites and apps in the inventory and meeting the criteria for an audit, the number of statements and the number of audits"
+    },
+    {
+      "name": "lastupdates",
+      "description": "last audits published on the observatory"
+    },
+    {
+      "name": "mediations",
+      "description": "mediations provided by the Information and Press Service between users and public sector bodies on digital accessibility issues"
+    },
+    {
+      "name": "labels",
+      "description": "Digital accessibility awards"
+    },
+    {
+      "name": "compliance",
+      "description": "compliance by administrative level; main non-compliance issues"
+    }
+  ],
+  "schemes": [
+    "https", "http"
+  ],
+  "paths": {
+    "/inventory": {
+      "get": {
+        "tags": [
+          "inventory"
+        ],
+        "summary": "Displays inventory",
+        "description": "Order by date, administrative level, theme, status (default: by item name). Only public online websites and apps are listed here.",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Values that need to be considered for sorting (default: by item name)",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "name",
+                "date",
+                "administrativelevel",
+                "theme",
+                "status"
+              ],
+              "default": "date"
+            },
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Inventory"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid sorting / output value"
+          }
+        }
+      }
+    },
+    "/inventory_distribution": {
+      "get": {
+        "tags": [
+          "inventory"
+        ],
+        "summary": "Displays inventory distribution",
+        "description": "Distribution by administrative level: state; cities; others i.e. public law bodies, as defined in Article 2 d) of the amended law of April 8, 2018, on public procurement.",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Distribution"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid output value"
+          }
+        }
+      }
+    },
+    "/statements": {
+      "get": {
+        "tags": [
+          "statements"
+        ],
+        "summary": "Displays accessibility statements",
+        "description": "Order by date, administrative level, theme, status (default: by item name). Only statements from public online websites and apps are listed here.",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Values that need to be considered for sorting (default: by item name)",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "name",
+                "date",
+                "compliance",
+                "platform"
+              ],
+              "default": "date"
+            },
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Statements"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid sorting / output value"
+          }
+        }
+      }
+    },
+    "/statements_distribution": {
+      "get": {
+        "tags": [
+          "statements"
+        ],
+        "summary": "Displays accessibility statements distribution",
+        "description": "Distribution by administrative level: state; cities; others i.e. public law bodies, as defined in Article 2 d) of the amended law of April 8, 2018, on public procurement. The statements included are those that have been updated in the last three years.",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Distribution"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid output value"
+          }
+        }
+      }
+    },
+    "/audits": {
+      "get": {
+        "tags": [
+          "audits"
+        ],
+        "summary": "Displays audits list",
+        "description": "List of audits conducted by the Information and Press Service of the Luxembourg government.",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "in",
+            "in": "query",
+            "description": "start year",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "out",
+            "in": "query",
+            "description": "end year",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "audit type: 1 (in-depth, default), 2 (app), 3 (simplified)",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3
+              ],
+              "default": 1
+            },
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Audits"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid sorting / output value"
+          }
+        }
+      }
+    },
+    "/audits/{audit}": {
+      "get": {
+        "tags": [
+          "audits"
+        ],
+        "summary": "Displays audit details",
+        "description": "List of all pages and criteria assessed for a specific website or mobile app.",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "audit",
+            "in": "path",
+            "description": "audit id",
+            "required": true,
+            "type": "integer",
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Audit"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid audit value"
+          }
+        }
+      }
+    },
+    "/key_figures": {
+      "get": {
+        "tags": [
+          "keyfigures"
+        ],
+        "summary": "Displays key figures related to websites and apps in the inventory and their statements",
+        "description": "Displays the number of websites and apps in the inventory and meeting the criteria for an audit, the number of statements and the number of audits",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Keyfigures"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/last_audits": {
+      "get": {
+        "tags": [
+          "lastupdates"
+        ],
+        "summary": "Displays last audits published on the observatory",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "greater than zero, less than 100",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Lastaudits"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid limit or output value"
+          }
+        }
+      }
+    },
+    "/mediations": {
+      "get": {
+        "tags": [
+          "mediations"
+        ],
+        "summary": "Displays for each year the number of complaints received by the Information and Press Service and the number of answers given by public sector bodies",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Mediations"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/labels": {
+      "get": {
+        "tags": [
+          "labels"
+        ],
+        "summary": "Each year, the observatory awards public sector bodies for their for their involvement in digital accessibility.",
+        "description": "Four available labels: platinum, gold, silver, bronze",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Labels"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/compliance_admin_level": {
+      "get": {
+        "tags": [
+          "compliance"
+        ],
+        "summary": "Displays compliance by administrative level",
+        "description": "Specify by audit type (1 = in-depth, 2  = simplified, 3 = app), date in, date out",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "in",
+            "in": "query",
+            "description": "start year",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "out",
+            "in": "query",
+            "description": "end year",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "audit type: 1 (in-depth, default), 2 (app), 3 (simplified)",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3
+              ],
+              "default": 1
+            },
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ComplianceAdminLevel"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid type / date / output value"
+          }
+        }
+      }
+    },
+    "/non_compliances": {
+      "get": {
+        "tags": [
+          "compliance"
+        ],
+        "summary": "Displays non-compliances given a date range and an audit type",
+        "description": "Specify by audit type (1 = in-depth, 2  = simplified, 3 = app), date in, date out",
+        "produces": [
+          "application/json",
+          "text/csv"
+        ],
+        "parameters": [
+          {
+            "name": "in",
+            "in": "query",
+            "description": "start year",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "out",
+            "in": "query",
+            "description": "end year",
+            "required": false,
+            "type": "integer",
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "audit type: 1 (in-depth, default), 2 (app), 3 (simplified)",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3
+              ],
+              "default": 1
+            },
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "output",
+            "in": "query",
+            "description": "JSON (default) or CSV",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "json",
+                "csv"
+              ],
+              "default": "json"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/NonCompliances"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request: invalid type / date / output value"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ApiResponse": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "type": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+    "Inventory": {
+      "type": "object",
+      "properties": {
+        "Item": {
+          "type": "string"
+        },
+        "AdministrativeLevel": {
+          "type": "string"
+        },
+        "Theme": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "ImportDate": {
+          "type": "string"
+        },
+        "WebUri": {
+          "type": "string"
+        },
+        "IosUri": {
+          "type": "string"
+        },
+        "AndroidUri": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "inventory"
+      }
+    },
+    "Distribution": {
+      "type": "object",
+      "properties": {
+        "total_state": {
+          "type": "integer"
+        },
+        "total_cities": {
+          "type": "integer"
+        },
+        "total_others": {
+          "type": "integer"
+        }
+      },
+      "xml": {
+        "name": "distribution"
+      }
+    },
+    "Statements": {
+      "type": "object",
+      "properties": {
+        "Item": {
+          "type": "string"
+        },
+        "Created_Updated": {
+          "type": "string"
+        },
+        "Compliance": {
+          "type": "string"
+        },
+        "Platform": {
+          "type": "string"
+        },
+        "Uri": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "inventory"
+      }
+    },
+    "Audits": {
+      "type": "object",
+      "properties": {
+        "audit_id": {
+          "type": "integer"
+        },
+        "ComplianceRate": {
+          "type": "integer"
+        },
+        "Inventory.NameFr": {
+          "type": "string"
+        },
+        "Inventory.Lang": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "audits"
+      }
+    },
+    "Audit": {
+      "type": "object",
+      "properties": {
+        "control_type": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "auditor": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        },
+        "audited_at": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "inventory": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "audit_reference": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            }
+          }
+        },
+        "assessed_level": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "pages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "integer"
+              },
+              "uri": {
+                "type": "string"
+              },
+              "assessments": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "criterion": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "status": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "exemption": {
+                      "type": "string"
+                    },
+                    "exemption_comment": {
+                      "type": "string"
+                    },
+                    "changes_to_do": {
+                      "type": "string"
+                    },
+                    "patches_follow_up": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "xml": {
+        "name": "audit"
+      }
+    },
+    "Keyfigures": {
+      "type": "object",
+      "properties": {
+        "total_web": {
+          "type": "integer"
+        },
+        "total_ios": {
+          "type": "integer"
+        },
+        "total_android": {
+          "type": "integer"
+        },
+        "total_apps": {
+          "type": "integer"
+        },
+        "total_audits": {
+          "type": "integer"
+        },
+        "total_statements_web": {
+          "type": "integer"
+        },
+        "total_statements_app": {
+          "type": "integer"
+        }
+      },
+      "xml": {
+        "name": "keyfigures"
+      }
+    },
+    "Lastaudits": {
+      "type": "object",
+      "properties": {
+        "Item": {
+          "type": "string"
+        },
+        "AuditTypeName": {
+          "type": "string"
+        },
+        "AuditId": {
+          "type": "integer"
+        },
+        "AuditedAt": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "keyfigures"
+      }
+    },
+    "Mediations": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "string"
+        },
+        "requests": {
+          "type": "integer"
+        },
+        "answers": {
+          "type": "integer"
+        }
+      },
+      "xml": {
+        "name": "mediations"
+      }
+    },
+    "Labels": {
+      "type": "object",
+      "properties": {
+        "LabelNameEn": {
+          "type": "string"
+        },
+        "LabelNameFr": {
+          "type": "string"
+        },
+        "AuditedAt": {
+          "type": "string"
+        },
+        "Inventory": {
+          "type": "string"
+        },
+        "Platform": {
+          "type": "string"
+        },
+        "AuditId": {
+          "type": "integer"
+        }
+      },
+      "xml": {
+        "name": "labels"
+      }
+    },
+    "ComplianceAdminLevel": {
+      "type": "object",
+      "properties": {
+        "state": {
+          "type": "number"
+        },
+        "cities": {
+          "type": "number"
+        },
+        "others": {
+          "type": "number"
+        }
+      },
+      "xml": {
+        "name": "complianceadminlevel"
+      }
+    },
+    "NonCompliances": {
+      "type": "object",
+      "properties": {
+        "num": {
+          "type": "number"
+        },
+        "name_fr": {
+          "type": "string"
+        },
+        "name_en": {
+          "type": "string"
+        },
+        "criterion": {
+          "type": "string"
+        },
+        "framework": {
+          "type": "number"
+        },
+        "framework_name": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "noncompliances"
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Check also our doc dedicated to data visualizations on the observatory",
+    "url": "https://accessibility-luxembourg.github.io/observatory_dataviz_demo/"
+  }
+}

@@ -1,0 +1,5655 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-01T06:53:15.633Z",
+    "sourceApiBase": "https://observatoire.accessibilite.public.lu/api/1",
+    "totalCandidateAudits": 67,
+    "curatedCount": 40
+  },
+  "sites": [
+    {
+      "auditId": 106,
+      "name": "Observatoire de l'accessibilité numérique",
+      "lang": "fr",
+      "homeUri": "https://observatoire.accessibilite.public.lu/fr/home",
+      "auditedAt": "2025-12-30",
+      "assessedLevel": "AA",
+      "complianceRate": 100,
+      "sector": "other",
+      "administrativeLevel": "State",
+      "pageCount": 11,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 33,
+          "nonCompliant": 0,
+          "notApplicable": 66,
+          "total": 99
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 22,
+          "total": 22
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 13,
+          "nonCompliant": 0,
+          "notApplicable": 20,
+          "total": 33
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 198,
+          "total": 198
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 12,
+          "nonCompliant": 0,
+          "notApplicable": 76,
+          "total": 88
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 22,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 22
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 8,
+          "nonCompliant": 0,
+          "notApplicable": 47,
+          "total": 55
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 99,
+          "nonCompliant": 0,
+          "notApplicable": 11,
+          "total": 110
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 33,
+          "nonCompliant": 0,
+          "notApplicable": 11,
+          "total": 44
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 102,
+          "nonCompliant": 0,
+          "notApplicable": 52,
+          "total": 154
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 22,
+          "nonCompliant": 0,
+          "notApplicable": 121,
+          "total": 143
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 80,
+          "nonCompliant": 0,
+          "notApplicable": 41,
+          "total": 121
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 38,
+          "nonCompliant": 0,
+          "notApplicable": 116,
+          "total": 154
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 1,
+          "nonCompliant": 0,
+          "notApplicable": 32,
+          "total": 33
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 66,
+          "total": 66
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 31,
+          "total": 33
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 121,
+          "total": 121
+        }
+      },
+      "worstTheme": null,
+      "bestTheme": {
+        "number": "10",
+        "compliantCount": 102
+      },
+      "screenshot": "screenshots/106.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "full",
+        "uri": "https://observatoire.accessibilite.public.lu/fr/accessibilityStatement",
+        "createdUpdated": "2026-01-20"
+      },
+      "comparablePairsWith": [
+        41,
+        39,
+        56,
+        6,
+        76,
+        47,
+        46,
+        100,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 91,
+      "name": "Institut national de recherches archéologiques",
+      "lang": "fr",
+      "homeUri": "https://inra.public.lu/fr.html",
+      "auditedAt": "2025-06-12",
+      "assessedLevel": "AA",
+      "complianceRate": 90,
+      "sector": "recreation and culture",
+      "administrativeLevel": "State",
+      "pageCount": 12,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 4,
+          "nonCompliant": 2,
+          "notApplicable": 102,
+          "total": 108
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 24,
+          "total": 24
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 22,
+          "nonCompliant": 0,
+          "notApplicable": 14,
+          "total": 36
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 212,
+          "total": 216
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 94,
+          "total": 96
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 23,
+          "nonCompliant": 1,
+          "notApplicable": 0,
+          "total": 24
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 10,
+          "nonCompliant": 1,
+          "notApplicable": 49,
+          "total": 60
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 84,
+          "nonCompliant": 4,
+          "notApplicable": 32,
+          "total": 120
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 36,
+          "nonCompliant": 0,
+          "notApplicable": 12,
+          "total": 48
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 117,
+          "nonCompliant": 1,
+          "notApplicable": 50,
+          "total": 168
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 22,
+          "nonCompliant": 0,
+          "notApplicable": 134,
+          "total": 156
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 100,
+          "nonCompliant": 0,
+          "notApplicable": 32,
+          "total": 132
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 36,
+          "nonCompliant": 2,
+          "notApplicable": 130,
+          "total": 168
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 34,
+          "total": 36
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 72,
+          "total": 72
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 3,
+          "nonCompliant": 0,
+          "notApplicable": 33,
+          "total": 36
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 132,
+          "total": 132
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 4
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 100
+      },
+      "screenshot": "screenshots/91.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://inra.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-10-31"
+      },
+      "comparablePairsWith": [
+        20
+      ]
+    },
+    {
+      "auditId": 63,
+      "name": "Caisse nationale d’assurance pension (CNAP)",
+      "lang": "fr",
+      "homeUri": "https://cnap.public.lu/fr.html",
+      "auditedAt": "2024-06-05",
+      "assessedLevel": "AA",
+      "complianceRate": 89,
+      "sector": "social protection",
+      "administrativeLevel": "State",
+      "pageCount": 15,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 3,
+          "nonCompliant": 1,
+          "notApplicable": 131,
+          "total": 135
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 30,
+          "total": 30
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 26,
+          "nonCompliant": 0,
+          "notApplicable": 19,
+          "total": 45
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 270,
+          "total": 270
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 116,
+          "total": 120
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 30,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 30
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 3,
+          "nonCompliant": 2,
+          "notApplicable": 70,
+          "total": 75
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 80,
+          "nonCompliant": 1,
+          "notApplicable": 69,
+          "total": 150
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 39,
+          "nonCompliant": 4,
+          "notApplicable": 17,
+          "total": 60
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 121,
+          "nonCompliant": 1,
+          "notApplicable": 88,
+          "total": 210
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 29,
+          "nonCompliant": 0,
+          "notApplicable": 166,
+          "total": 195
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 66,
+          "nonCompliant": 0,
+          "notApplicable": 99,
+          "total": 165
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 42,
+          "nonCompliant": 0,
+          "notApplicable": 168,
+          "total": 210
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 1,
+          "nonCompliant": 0,
+          "notApplicable": 44,
+          "total": 45
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 90,
+          "total": 90
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 43,
+          "total": 45
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 165,
+          "total": 165
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 4
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 66
+      },
+      "screenshot": "screenshots/63.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://cnap.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2026-02-13"
+      },
+      "comparablePairsWith": [
+        55,
+        29
+      ]
+    },
+    {
+      "auditId": 101,
+      "name": "Sécurité alimentaire",
+      "lang": "fr",
+      "homeUri": "https://securite-alimentaire.public.lu/fr.html",
+      "auditedAt": "2025-11-10",
+      "assessedLevel": "AA",
+      "complianceRate": 82,
+      "sector": "health",
+      "administrativeLevel": "State",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 18,
+          "nonCompliant": 1,
+          "notApplicable": 107,
+          "total": 126
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 26,
+          "total": 28
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 28,
+          "nonCompliant": 0,
+          "notApplicable": 14,
+          "total": 42
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 5,
+          "nonCompliant": 2,
+          "notApplicable": 245,
+          "total": 252
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 2,
+          "nonCompliant": 4,
+          "notApplicable": 106,
+          "total": 112
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 28,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 28
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 26,
+          "nonCompliant": 2,
+          "notApplicable": 42,
+          "total": 70
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 101,
+          "nonCompliant": 5,
+          "notApplicable": 34,
+          "total": 140
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 37,
+          "nonCompliant": 5,
+          "notApplicable": 14,
+          "total": 56
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 176,
+          "nonCompliant": 3,
+          "notApplicable": 17,
+          "total": 196
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 71,
+          "nonCompliant": 1,
+          "notApplicable": 110,
+          "total": 182
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 140,
+          "nonCompliant": 0,
+          "notApplicable": 14,
+          "total": 154
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 42,
+          "nonCompliant": 3,
+          "notApplicable": 151,
+          "total": 196
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 42,
+          "total": 42
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 84,
+          "total": 84
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 1,
+          "nonCompliant": 0,
+          "notApplicable": 41,
+          "total": 42
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 154,
+          "total": 154
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 5
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 140
+      },
+      "screenshot": "screenshots/101.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 78,
+          "auditedAt": "2024-10-21",
+          "complianceRate": 75
+        }
+      ],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://securite-alimentaire.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-12-22"
+      },
+      "comparablePairsWith": [
+        50,
+        4,
+        44
+      ]
+    },
+    {
+      "auditId": 52,
+      "name": "Portail du logement",
+      "lang": "fr",
+      "homeUri": "https://logement.public.lu/fr.html",
+      "auditedAt": "2023-06-06",
+      "assessedLevel": "AA",
+      "complianceRate": 82,
+      "sector": "housing and community amenities",
+      "administrativeLevel": "State",
+      "pageCount": 17,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 51,
+          "nonCompliant": 3,
+          "notApplicable": 99,
+          "total": 153
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 30,
+          "total": 34
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 32,
+          "nonCompliant": 2,
+          "notApplicable": 17,
+          "total": 51
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 5,
+          "nonCompliant": 1,
+          "notApplicable": 215,
+          "total": 221
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 7,
+          "nonCompliant": 2,
+          "notApplicable": 127,
+          "total": 136
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 34,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 34
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 30,
+          "nonCompliant": 2,
+          "notApplicable": 53,
+          "total": 85
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 123,
+          "nonCompliant": 0,
+          "notApplicable": 47,
+          "total": 170
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 43,
+          "nonCompliant": 8,
+          "notApplicable": 17,
+          "total": 68
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 196,
+          "nonCompliant": 0,
+          "notApplicable": 42,
+          "total": 238
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 44,
+          "nonCompliant": 2,
+          "notApplicable": 175,
+          "total": 221
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 153,
+          "nonCompliant": 0,
+          "notApplicable": 34,
+          "total": 187
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 39,
+          "nonCompliant": 6,
+          "notApplicable": 159,
+          "total": 204
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 8
+      },
+      "bestTheme": {
+        "number": "10",
+        "compliantCount": 196
+      },
+      "screenshot": "screenshots/52.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://logement.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2023-12-01"
+      },
+      "comparablePairsWith": [
+        102,
+        68
+      ]
+    },
+    {
+      "auditId": 87,
+      "name": "Trésorerie de l'Etat",
+      "lang": "fr",
+      "homeUri": "https://tresorerie.public.lu/fr.html",
+      "auditedAt": "2025-04-11",
+      "assessedLevel": "AA",
+      "complianceRate": 77,
+      "sector": "employment and taxes",
+      "administrativeLevel": "State",
+      "pageCount": 17,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 51,
+          "nonCompliant": 0,
+          "notApplicable": 102,
+          "total": 153
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 34,
+          "total": 34
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 46,
+          "nonCompliant": 5,
+          "notApplicable": 0,
+          "total": 51
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 306,
+          "total": 306
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 5,
+          "notApplicable": 127,
+          "total": 136
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 34,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 34
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 32,
+          "nonCompliant": 3,
+          "notApplicable": 50,
+          "total": 85
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 147,
+          "nonCompliant": 6,
+          "notApplicable": 17,
+          "total": 170
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 48,
+          "nonCompliant": 3,
+          "notApplicable": 17,
+          "total": 68
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 229,
+          "nonCompliant": 3,
+          "notApplicable": 6,
+          "total": 238
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 71,
+          "nonCompliant": 1,
+          "notApplicable": 149,
+          "total": 221
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 170,
+          "nonCompliant": 0,
+          "notApplicable": 17,
+          "total": 187
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 51,
+          "nonCompliant": 3,
+          "notApplicable": 184,
+          "total": 238
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 34,
+          "nonCompliant": 0,
+          "notApplicable": 17,
+          "total": 51
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 102,
+          "total": 102
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 51,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 51
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 187,
+          "total": 187
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 6
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 170
+      },
+      "screenshot": "screenshots/87.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://tresorerie.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-07-28"
+      },
+      "comparablePairsWith": [
+        35,
+        74,
+        80
+      ]
+    },
+    {
+      "auditId": 71,
+      "name": "Armée",
+      "lang": "fr",
+      "homeUri": "https://armee.public.lu/fr.html",
+      "auditedAt": "2024-08-12",
+      "assessedLevel": "AA",
+      "complianceRate": 71,
+      "sector": "public order and safety",
+      "administrativeLevel": "State",
+      "pageCount": 13,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 24,
+          "nonCompliant": 8,
+          "notApplicable": 85,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 4,
+          "nonCompliant": 5,
+          "notApplicable": 17,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 20,
+          "nonCompliant": 0,
+          "notApplicable": 19,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 19,
+          "nonCompliant": 6,
+          "notApplicable": 209,
+          "total": 234
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 100,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 25,
+          "nonCompliant": 1,
+          "notApplicable": 0,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 3,
+          "nonCompliant": 7,
+          "notApplicable": 55,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 93,
+          "nonCompliant": 7,
+          "notApplicable": 30,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 30,
+          "nonCompliant": 9,
+          "notApplicable": 13,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 112,
+          "nonCompliant": 11,
+          "notApplicable": 59,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 15,
+          "nonCompliant": 1,
+          "notApplicable": 153,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 118,
+          "nonCompliant": 0,
+          "notApplicable": 25,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 28,
+          "nonCompliant": 2,
+          "notApplicable": 152,
+          "total": 182
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 3,
+          "nonCompliant": 0,
+          "notApplicable": 36,
+          "total": 39
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 78,
+          "total": 78
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 1,
+          "nonCompliant": 1,
+          "notApplicable": 37,
+          "total": 39
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 143,
+          "total": 143
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 11
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 118
+      },
+      "screenshot": "screenshots/71.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://armee.gouvernement.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-01-03"
+      },
+      "comparablePairsWith": [
+        10
+      ]
+    },
+    {
+      "auditId": 11,
+      "name": "emwelt.lu",
+      "lang": "lb",
+      "homeUri": "https://environnement.public.lu/fr.html",
+      "auditedAt": "2021-08-09",
+      "assessedLevel": "AA",
+      "complianceRate": 61,
+      "sector": "environmental protection",
+      "administrativeLevel": "State",
+      "pageCount": 12,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 8,
+          "nonCompliant": 3,
+          "notApplicable": 97,
+          "total": 108
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 24,
+          "total": 24
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 16,
+          "nonCompliant": 9,
+          "notApplicable": 11,
+          "total": 36
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 156,
+          "total": 156
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 2,
+          "notApplicable": 94,
+          "total": 96
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 17,
+          "nonCompliant": 7,
+          "notApplicable": 0,
+          "total": 24
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 3,
+          "nonCompliant": 2,
+          "notApplicable": 55,
+          "total": 60
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 80,
+          "nonCompliant": 12,
+          "notApplicable": 28,
+          "total": 120
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 24,
+          "nonCompliant": 12,
+          "notApplicable": 12,
+          "total": 48
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 125,
+          "nonCompliant": 4,
+          "notApplicable": 39,
+          "total": 168
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 11,
+          "nonCompliant": 3,
+          "notApplicable": 142,
+          "total": 156
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 95,
+          "nonCompliant": 1,
+          "notApplicable": 36,
+          "total": 132
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 24,
+          "nonCompliant": 0,
+          "notApplicable": 120,
+          "total": 144
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 12
+      },
+      "bestTheme": {
+        "number": "13",
+        "compliantCount": 24
+      },
+      "screenshot": "screenshots/11.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://environnement.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-03-04"
+      },
+      "comparablePairsWith": []
+    },
+    {
+      "auditId": 9,
+      "name": "Ministère de l'éducation nationale et de la Formation professionnelle",
+      "lang": "fr",
+      "homeUri": "https://men.public.lu/fr.html",
+      "auditedAt": "2021-07-07",
+      "assessedLevel": "AA",
+      "complianceRate": 51,
+      "sector": "education",
+      "administrativeLevel": "State",
+      "pageCount": 12,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 1,
+          "nonCompliant": 9,
+          "notApplicable": 98,
+          "total": 108
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 23,
+          "total": 24
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 12,
+          "nonCompliant": 3,
+          "notApplicable": 21,
+          "total": 36
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 4,
+          "nonCompliant": 8,
+          "notApplicable": 144,
+          "total": 156
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 1,
+          "nonCompliant": 1,
+          "notApplicable": 94,
+          "total": 96
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 21,
+          "nonCompliant": 3,
+          "notApplicable": 0,
+          "total": 24
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 12,
+          "nonCompliant": 5,
+          "notApplicable": 43,
+          "total": 60
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 70,
+          "nonCompliant": 13,
+          "notApplicable": 37,
+          "total": 120
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 12,
+          "nonCompliant": 14,
+          "notApplicable": 22,
+          "total": 48
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 127,
+          "nonCompliant": 4,
+          "notApplicable": 37,
+          "total": 168
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 42,
+          "nonCompliant": 2,
+          "notApplicable": 112,
+          "total": 156
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 108,
+          "nonCompliant": 1,
+          "notApplicable": 23,
+          "total": 132
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 12,
+          "nonCompliant": 7,
+          "notApplicable": 125,
+          "total": 144
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 14
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/9.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://men.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2022-03-29"
+      },
+      "comparablePairsWith": []
+    },
+    {
+      "auditId": 98,
+      "name": "CITA - Contrôle et information du trafic sur les autoroutes",
+      "lang": "fr",
+      "homeUri": "https://cita.lu/",
+      "auditedAt": "2025-11-10",
+      "assessedLevel": "AA",
+      "complianceRate": 51,
+      "sector": "transport",
+      "administrativeLevel": "State",
+      "pageCount": 10,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 1,
+          "nonCompliant": 4,
+          "notApplicable": 85,
+          "total": 90
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 2,
+          "notApplicable": 18,
+          "total": 20
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 12,
+          "nonCompliant": 13,
+          "notApplicable": 5,
+          "total": 30
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 3,
+          "nonCompliant": 2,
+          "notApplicable": 175,
+          "total": 180
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 80,
+          "total": 80
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 15,
+          "nonCompliant": 3,
+          "notApplicable": 2,
+          "total": 20
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 9,
+          "nonCompliant": 7,
+          "notApplicable": 34,
+          "total": 50
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 70,
+          "nonCompliant": 2,
+          "notApplicable": 28,
+          "total": 100
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 24,
+          "nonCompliant": 3,
+          "notApplicable": 13,
+          "total": 40
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 76,
+          "nonCompliant": 20,
+          "notApplicable": 44,
+          "total": 140
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 4,
+          "nonCompliant": 4,
+          "notApplicable": 122,
+          "total": 130
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 38,
+          "nonCompliant": 4,
+          "notApplicable": 68,
+          "total": 110
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 31,
+          "nonCompliant": 3,
+          "notApplicable": 106,
+          "total": 140
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 30,
+          "total": 30
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 60,
+          "total": 60
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 29,
+          "total": 30
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 110,
+          "total": 110
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 20
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/98.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        34
+      ]
+    },
+    {
+      "auditId": 41,
+      "name": "Chambre des députés",
+      "lang": "fr",
+      "homeUri": "https://www.chd.lu/fr",
+      "auditedAt": "2023-08-28",
+      "assessedLevel": "AA",
+      "complianceRate": 73,
+      "sector": "other",
+      "administrativeLevel": "Others",
+      "pageCount": 15,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 2,
+          "nonCompliant": 2,
+          "notApplicable": 131,
+          "total": 135
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 30,
+          "total": 30
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 32,
+          "nonCompliant": 2,
+          "notApplicable": 11,
+          "total": 45
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 3,
+          "nonCompliant": 2,
+          "notApplicable": 190,
+          "total": 195
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 116,
+          "total": 120
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 28,
+          "nonCompliant": 2,
+          "notApplicable": 0,
+          "total": 30
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 16,
+          "nonCompliant": 6,
+          "notApplicable": 53,
+          "total": 75
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 97,
+          "nonCompliant": 9,
+          "notApplicable": 44,
+          "total": 150
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 35,
+          "nonCompliant": 9,
+          "notApplicable": 16,
+          "total": 60
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 138,
+          "nonCompliant": 5,
+          "notApplicable": 67,
+          "total": 210
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 43,
+          "nonCompliant": 3,
+          "notApplicable": 149,
+          "total": 195
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 140,
+          "nonCompliant": 0,
+          "notApplicable": 25,
+          "total": 165
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 49,
+          "nonCompliant": 4,
+          "notApplicable": 127,
+          "total": 180
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 9
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 140
+      },
+      "screenshot": "screenshots/41.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.chd.lu/fr/declaration-daccessibilite",
+        "createdUpdated": "2023-02-10"
+      },
+      "comparablePairsWith": [
+        106,
+        39,
+        56,
+        6,
+        76,
+        46,
+        100,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 39,
+      "name": "Ville de Luxembourg",
+      "lang": "fr",
+      "homeUri": "https://www.vdl.lu/fr",
+      "auditedAt": "2022-11-28",
+      "assessedLevel": "AA",
+      "complianceRate": 61,
+      "sector": "other",
+      "administrativeLevel": "Cities",
+      "pageCount": 16,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 13,
+          "nonCompliant": 0,
+          "notApplicable": 131,
+          "total": 144
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 31,
+          "total": 32
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 24,
+          "nonCompliant": 7,
+          "notApplicable": 17,
+          "total": 48
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 3,
+          "nonCompliant": 1,
+          "notApplicable": 204,
+          "total": 208
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 3,
+          "nonCompliant": 2,
+          "notApplicable": 123,
+          "total": 128
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 28,
+          "nonCompliant": 4,
+          "notApplicable": 0,
+          "total": 32
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 8,
+          "nonCompliant": 8,
+          "notApplicable": 64,
+          "total": 80
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 100,
+          "nonCompliant": 12,
+          "notApplicable": 48,
+          "total": 160
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 22,
+          "nonCompliant": 13,
+          "notApplicable": 29,
+          "total": 64
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 140,
+          "nonCompliant": 6,
+          "notApplicable": 78,
+          "total": 224
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 39,
+          "nonCompliant": 9,
+          "notApplicable": 160,
+          "total": 208
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 115,
+          "nonCompliant": 4,
+          "notApplicable": 57,
+          "total": 176
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 32,
+          "nonCompliant": 1,
+          "notApplicable": 159,
+          "total": 192
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 13
+      },
+      "bestTheme": {
+        "number": "1",
+        "compliantCount": 13
+      },
+      "screenshot": "screenshots/39.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 17,
+          "auditedAt": "2021-01-08",
+          "complianceRate": 38
+        }
+      ],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.vdl.lu/fr/mentions-legales#d%C3%A9claration-sur-l%E2%80%99accessibilit%C3%A9",
+        "createdUpdated": "2023-05-02"
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        56,
+        6,
+        76,
+        47,
+        46,
+        100,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 20,
+      "name": "Philharmonie Luxembourg",
+      "lang": "fr",
+      "homeUri": "https://www.philharmonie.lu/fr/",
+      "auditedAt": "2022-04-26",
+      "assessedLevel": "AA",
+      "complianceRate": 36,
+      "sector": "recreation and culture",
+      "administrativeLevel": "Others",
+      "pageCount": 18,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 8,
+          "nonCompliant": 12,
+          "notApplicable": 142,
+          "total": 162
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 3,
+          "nonCompliant": 0,
+          "notApplicable": 33,
+          "total": 36
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 24,
+          "nonCompliant": 10,
+          "notApplicable": 20,
+          "total": 54
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 4,
+          "nonCompliant": 3,
+          "notApplicable": 227,
+          "total": 234
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 140,
+          "total": 144
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 27,
+          "nonCompliant": 9,
+          "notApplicable": 0,
+          "total": 36
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 15,
+          "nonCompliant": 13,
+          "notApplicable": 62,
+          "total": 90
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 60,
+          "nonCompliant": 18,
+          "notApplicable": 102,
+          "total": 180
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 20,
+          "nonCompliant": 13,
+          "notApplicable": 39,
+          "total": 72
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 114,
+          "nonCompliant": 23,
+          "notApplicable": 115,
+          "total": 252
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 10,
+          "nonCompliant": 11,
+          "notApplicable": 213,
+          "total": 234
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 124,
+          "nonCompliant": 4,
+          "notApplicable": 70,
+          "total": 198
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 36,
+          "nonCompliant": 5,
+          "notApplicable": 175,
+          "total": 216
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 23
+      },
+      "bestTheme": {
+        "number": "5",
+        "compliantCount": 4
+      },
+      "screenshot": "screenshots/20.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 21,
+          "auditedAt": "2022-04-26",
+          "complianceRate": 53
+        }
+      ],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.philharmonie.lu/en/declaration-of-accessibility",
+        "createdUpdated": "2024-06-04"
+      },
+      "comparablePairsWith": [
+        91
+      ]
+    },
+    {
+      "auditId": 69,
+      "name": "De Piwitsch",
+      "lang": "lb",
+      "homeUri": "https://www.piwitsch.lu/",
+      "auditedAt": "2024-06-12",
+      "assessedLevel": "AA",
+      "complianceRate": 49,
+      "sector": "education",
+      "administrativeLevel": "State",
+      "pageCount": 11,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 8,
+          "nonCompliant": 7,
+          "notApplicable": 84,
+          "total": 99
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 20,
+          "total": 22
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 10,
+          "nonCompliant": 14,
+          "notApplicable": 9,
+          "total": 33
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 16,
+          "nonCompliant": 1,
+          "notApplicable": 181,
+          "total": 198
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 87,
+          "total": 88
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 19,
+          "nonCompliant": 3,
+          "notApplicable": 0,
+          "total": 22
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 6,
+          "nonCompliant": 8,
+          "notApplicable": 41,
+          "total": 55
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 89,
+          "nonCompliant": 10,
+          "notApplicable": 11,
+          "total": 110
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 17,
+          "nonCompliant": 18,
+          "notApplicable": 9,
+          "total": 44
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 70,
+          "nonCompliant": 10,
+          "notApplicable": 74,
+          "total": 154
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 29,
+          "nonCompliant": 3,
+          "notApplicable": 111,
+          "total": 143
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 53,
+          "nonCompliant": 2,
+          "notApplicable": 66,
+          "total": 121
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 22,
+          "nonCompliant": 2,
+          "notApplicable": 130,
+          "total": 154
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 33,
+          "total": 33
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 66,
+          "total": 66
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 33,
+          "total": 33
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 121,
+          "total": 121
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 18
+      },
+      "bestTheme": {
+        "number": "2",
+        "compliantCount": 2
+      },
+      "screenshot": "screenshots/69.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": []
+    },
+    {
+      "auditId": 72,
+      "name": "mobiliteit.lu",
+      "lang": "lb",
+      "homeUri": "https://www.mobiliteit.lu/fr/planifier-un-trajet/",
+      "auditedAt": "2024-09-02",
+      "assessedLevel": "AA",
+      "complianceRate": 49,
+      "sector": "transport",
+      "administrativeLevel": "State",
+      "pageCount": 16,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 46,
+          "nonCompliant": 2,
+          "notApplicable": 96,
+          "total": 144
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 6,
+          "nonCompliant": 2,
+          "notApplicable": 24,
+          "total": 32
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 32,
+          "nonCompliant": 2,
+          "notApplicable": 14,
+          "total": 48
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 2,
+          "nonCompliant": 3,
+          "notApplicable": 283,
+          "total": 288
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 5,
+          "nonCompliant": 3,
+          "notApplicable": 120,
+          "total": 128
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 27,
+          "nonCompliant": 5,
+          "notApplicable": 0,
+          "total": 32
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 30,
+          "nonCompliant": 7,
+          "notApplicable": 43,
+          "total": 80
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 136,
+          "nonCompliant": 8,
+          "notApplicable": 16,
+          "total": 160
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 35,
+          "nonCompliant": 13,
+          "notApplicable": 16,
+          "total": 64
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 142,
+          "nonCompliant": 9,
+          "notApplicable": 73,
+          "total": 224
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 55,
+          "nonCompliant": 11,
+          "notApplicable": 142,
+          "total": 208
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 140,
+          "nonCompliant": 4,
+          "notApplicable": 32,
+          "total": 176
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 48,
+          "nonCompliant": 1,
+          "notApplicable": 175,
+          "total": 224
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 48,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 48
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 96,
+          "total": 96
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 48,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 48
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 176,
+          "total": 176
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 13
+      },
+      "bestTheme": {
+        "number": "14",
+        "compliantCount": 48
+      },
+      "screenshot": "screenshots/72.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 16,
+          "auditedAt": "2020-10-27",
+          "complianceRate": 33
+        }
+      ],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.mobiliteit.lu/fr/accessibilite/",
+        "createdUpdated": "2021-04-28"
+      },
+      "comparablePairsWith": []
+    },
+    {
+      "auditId": 90,
+      "name": "Orientation.lu",
+      "lang": "fr",
+      "homeUri": "https://www.orientation.lu/",
+      "auditedAt": "2025-05-20",
+      "assessedLevel": "AA",
+      "complianceRate": 47,
+      "sector": "education",
+      "administrativeLevel": "State",
+      "pageCount": 11,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 14,
+          "nonCompliant": 5,
+          "notApplicable": 80,
+          "total": 99
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 20,
+          "total": 22
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 14,
+          "nonCompliant": 10,
+          "notApplicable": 9,
+          "total": 33
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 7,
+          "nonCompliant": 5,
+          "notApplicable": 186,
+          "total": 198
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 88,
+          "total": 88
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 19,
+          "nonCompliant": 2,
+          "notApplicable": 0,
+          "total": 22
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 9,
+          "nonCompliant": 14,
+          "notApplicable": 32,
+          "total": 55
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 72,
+          "nonCompliant": 7,
+          "notApplicable": 31,
+          "total": 110
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 25,
+          "nonCompliant": 8,
+          "notApplicable": 11,
+          "total": 44
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 98,
+          "nonCompliant": 12,
+          "notApplicable": 44,
+          "total": 154
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 13,
+          "nonCompliant": 12,
+          "notApplicable": 118,
+          "total": 143
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 47,
+          "nonCompliant": 11,
+          "notApplicable": 62,
+          "total": 121
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 37,
+          "nonCompliant": 2,
+          "notApplicable": 115,
+          "total": 154
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 11,
+          "nonCompliant": 0,
+          "notApplicable": 22,
+          "total": 33
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 66,
+          "total": 66
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 33,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 33
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 121,
+          "total": 121
+        }
+      },
+      "worstTheme": {
+        "number": "7",
+        "nonCompliantCount": 14
+      },
+      "bestTheme": {
+        "number": "16",
+        "compliantCount": 33
+      },
+      "screenshot": "screenshots/90.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.orientation.lu/accessibility/",
+        "createdUpdated": "2023-12-18"
+      },
+      "comparablePairsWith": []
+    },
+    {
+      "auditId": 50,
+      "name": "Centre hospitalier du Nord",
+      "lang": "fr",
+      "homeUri": "https://www.chdn.lu/",
+      "auditedAt": "2023-08-01",
+      "assessedLevel": "AA",
+      "complianceRate": 46,
+      "sector": "health",
+      "administrativeLevel": "Others",
+      "pageCount": 10,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 5,
+          "nonCompliant": 1,
+          "notApplicable": 84,
+          "total": 90
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 16,
+          "total": 20
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 5,
+          "nonCompliant": 12,
+          "notApplicable": 13,
+          "total": 30
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 130,
+          "total": 130
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 80,
+          "total": 80
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 17,
+          "nonCompliant": 3,
+          "notApplicable": 0,
+          "total": 20
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 1,
+          "nonCompliant": 4,
+          "notApplicable": 45,
+          "total": 50
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 49,
+          "nonCompliant": 29,
+          "notApplicable": 22,
+          "total": 100
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 22,
+          "nonCompliant": 9,
+          "notApplicable": 9,
+          "total": 40
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 67,
+          "nonCompliant": 21,
+          "notApplicable": 52,
+          "total": 140
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 26,
+          "nonCompliant": 10,
+          "notApplicable": 94,
+          "total": 130
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 69,
+          "nonCompliant": 4,
+          "notApplicable": 37,
+          "total": 110
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 10,
+          "nonCompliant": 5,
+          "notApplicable": 105,
+          "total": 120
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 29
+      },
+      "bestTheme": {
+        "number": "2",
+        "compliantCount": 4
+      },
+      "screenshot": "screenshots/50.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        101,
+        4,
+        44
+      ]
+    },
+    {
+      "auditId": 34,
+      "name": "CFL",
+      "lang": "fr",
+      "homeUri": "https://www.cfl.lu",
+      "auditedAt": "2022-09-27",
+      "assessedLevel": "AA",
+      "complianceRate": 45,
+      "sector": "transport",
+      "administrativeLevel": "Others",
+      "pageCount": 16,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 1,
+          "nonCompliant": 16,
+          "notApplicable": 127,
+          "total": 144
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 1,
+          "nonCompliant": 1,
+          "notApplicable": 30,
+          "total": 32
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 8,
+          "nonCompliant": 14,
+          "notApplicable": 26,
+          "total": 48
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 3,
+          "nonCompliant": 2,
+          "notApplicable": 203,
+          "total": 208
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 128,
+          "total": 128
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 23,
+          "nonCompliant": 7,
+          "notApplicable": 2,
+          "total": 32
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 6,
+          "nonCompliant": 11,
+          "notApplicable": 63,
+          "total": 80
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 90,
+          "nonCompliant": 23,
+          "notApplicable": 47,
+          "total": 160
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 27,
+          "nonCompliant": 16,
+          "notApplicable": 21,
+          "total": 64
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 130,
+          "nonCompliant": 13,
+          "notApplicable": 81,
+          "total": 224
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 11,
+          "nonCompliant": 19,
+          "notApplicable": 178,
+          "total": 208
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 116,
+          "nonCompliant": 7,
+          "notApplicable": 53,
+          "total": 176
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 38,
+          "nonCompliant": 2,
+          "notApplicable": 152,
+          "total": 192
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 23
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/34.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "no",
+        "uri": "https://www.cfl.lu/fr-fr/page/04dca8ac-9b00-4989-8390-28d01db214ad",
+        "createdUpdated": "2023-12-21"
+      },
+      "comparablePairsWith": [
+        98
+      ]
+    },
+    {
+      "auditId": 56,
+      "name": "SYVICOL",
+      "lang": "fr",
+      "homeUri": "https://www.syvicol.lu/fr",
+      "auditedAt": "2023-10-11",
+      "assessedLevel": "AA",
+      "complianceRate": 45,
+      "sector": "other",
+      "administrativeLevel": "Cities",
+      "pageCount": 16,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 3,
+          "nonCompliant": 9,
+          "notApplicable": 132,
+          "total": 144
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 30,
+          "total": 32
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 33,
+          "nonCompliant": 5,
+          "notApplicable": 10,
+          "total": 48
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 208,
+          "total": 208
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 126,
+          "total": 128
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 26,
+          "nonCompliant": 6,
+          "notApplicable": 0,
+          "total": 32
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 27,
+          "nonCompliant": 7,
+          "notApplicable": 46,
+          "total": 80
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 106,
+          "nonCompliant": 8,
+          "notApplicable": 46,
+          "total": 160
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 26,
+          "nonCompliant": 15,
+          "notApplicable": 23,
+          "total": 64
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 114,
+          "nonCompliant": 20,
+          "notApplicable": 90,
+          "total": 224
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 21,
+          "nonCompliant": 9,
+          "notApplicable": 178,
+          "total": 208
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 140,
+          "nonCompliant": 3,
+          "notApplicable": 33,
+          "total": 176
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 48,
+          "nonCompliant": 4,
+          "notApplicable": 140,
+          "total": 192
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 20
+      },
+      "bestTheme": {
+        "number": "2",
+        "compliantCount": 2
+      },
+      "screenshot": "screenshots/56.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.syvicol.lu/fr/declaration-sur-laccessibilite",
+        "createdUpdated": "2023-09-15"
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        76,
+        47,
+        46,
+        100,
+        67
+      ]
+    },
+    {
+      "auditId": 35,
+      "name": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "lang": "fr",
+      "homeUri": "https://www.cssf.lu/fr/",
+      "auditedAt": "2022-10-27",
+      "assessedLevel": "AA",
+      "complianceRate": 44,
+      "sector": "employment and taxes",
+      "administrativeLevel": "Others",
+      "pageCount": 8,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 2,
+          "nonCompliant": 3,
+          "notApplicable": 67,
+          "total": 72
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 14,
+          "total": 16
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 0,
+          "nonCompliant": 6,
+          "notApplicable": 18,
+          "total": 24
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 104,
+          "total": 104
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 2,
+          "notApplicable": 62,
+          "total": 64
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 0,
+          "nonCompliant": 4,
+          "notApplicable": 12,
+          "total": 16
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 8,
+          "nonCompliant": 5,
+          "notApplicable": 27,
+          "total": 40
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 46,
+          "nonCompliant": 4,
+          "notApplicable": 30,
+          "total": 80
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 1,
+          "nonCompliant": 14,
+          "notApplicable": 17,
+          "total": 32
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 63,
+          "nonCompliant": 5,
+          "notApplicable": 43,
+          "total": 112
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 11,
+          "nonCompliant": 8,
+          "notApplicable": 85,
+          "total": 104
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 40,
+          "nonCompliant": 2,
+          "notApplicable": 46,
+          "total": 88
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 8,
+          "nonCompliant": 5,
+          "notApplicable": 83,
+          "total": 96
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 14
+      },
+      "bestTheme": {
+        "number": "2",
+        "compliantCount": 2
+      },
+      "screenshot": "screenshots/35.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.cssf.lu/fr/accessibilite/",
+        "createdUpdated": "2023-09-07"
+      },
+      "comparablePairsWith": [
+        87,
+        51,
+        74,
+        80
+      ]
+    },
+    {
+      "auditId": 55,
+      "name": "Vision Zero",
+      "lang": "en",
+      "homeUri": "https://visionzero.lu/fr/",
+      "auditedAt": "2023-10-10",
+      "assessedLevel": "AA",
+      "complianceRate": 44,
+      "sector": "social protection",
+      "administrativeLevel": "State",
+      "pageCount": 10,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 2,
+          "nonCompliant": 3,
+          "notApplicable": 85,
+          "total": 90
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 18,
+          "total": 20
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 10,
+          "nonCompliant": 9,
+          "notApplicable": 11,
+          "total": 30
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 130,
+          "total": 130
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 1,
+          "nonCompliant": 1,
+          "notApplicable": 78,
+          "total": 80
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 11,
+          "nonCompliant": 7,
+          "notApplicable": 2,
+          "total": 20
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 1,
+          "nonCompliant": 10,
+          "notApplicable": 39,
+          "total": 50
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 68,
+          "nonCompliant": 9,
+          "notApplicable": 23,
+          "total": 100
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 8,
+          "nonCompliant": 10,
+          "notApplicable": 22,
+          "total": 40
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 70,
+          "nonCompliant": 20,
+          "notApplicable": 50,
+          "total": 140
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 5,
+          "nonCompliant": 12,
+          "notApplicable": 113,
+          "total": 130
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 57,
+          "nonCompliant": 4,
+          "notApplicable": 49,
+          "total": 110
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 10,
+          "nonCompliant": 4,
+          "notApplicable": 106,
+          "total": 120
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 20
+      },
+      "bestTheme": {
+        "number": "2",
+        "compliantCount": 2
+      },
+      "screenshot": "screenshots/55.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        63,
+        93,
+        85,
+        29
+      ]
+    },
+    {
+      "auditId": 6,
+      "name": "Luxtrust",
+      "lang": "en",
+      "homeUri": "https://www.luxtrust.com/fr",
+      "auditedAt": "2021-10-18",
+      "assessedLevel": "AA",
+      "complianceRate": 44,
+      "sector": "other",
+      "administrativeLevel": "Others",
+      "pageCount": 10,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 3,
+          "nonCompliant": 5,
+          "notApplicable": 82,
+          "total": 90
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 4,
+          "notApplicable": 16,
+          "total": 20
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 15,
+          "nonCompliant": 10,
+          "notApplicable": 5,
+          "total": 30
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 130,
+          "total": 130
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 3,
+          "nonCompliant": 5,
+          "notApplicable": 72,
+          "total": 80
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 13,
+          "nonCompliant": 3,
+          "notApplicable": 4,
+          "total": 20
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 5,
+          "nonCompliant": 8,
+          "notApplicable": 37,
+          "total": 50
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 60,
+          "nonCompliant": 13,
+          "notApplicable": 27,
+          "total": 100
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 12,
+          "nonCompliant": 13,
+          "notApplicable": 15,
+          "total": 40
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 99,
+          "nonCompliant": 10,
+          "notApplicable": 31,
+          "total": 140
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 18,
+          "nonCompliant": 12,
+          "notApplicable": 100,
+          "total": 130
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 82,
+          "nonCompliant": 5,
+          "notApplicable": 23,
+          "total": 110
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 21,
+          "nonCompliant": 3,
+          "notApplicable": 96,
+          "total": 120
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 13
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/6.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        76,
+        47,
+        46,
+        100,
+        67
+      ]
+    },
+    {
+      "auditId": 76,
+      "name": "guichet.lu",
+      "lang": "fr",
+      "homeUri": "https://guichet.public.lu/fr/citoyens.html",
+      "auditedAt": "2024-09-03",
+      "assessedLevel": "AA",
+      "complianceRate": 79,
+      "sector": "other",
+      "administrativeLevel": "State",
+      "pageCount": 18,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 18,
+          "nonCompliant": 2,
+          "notApplicable": 142,
+          "total": 162
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 36,
+          "total": 36
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 54,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 54
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 16,
+          "nonCompliant": 1,
+          "notApplicable": 307,
+          "total": 324
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 8,
+          "nonCompliant": 1,
+          "notApplicable": 135,
+          "total": 144
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 36,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 36
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 40,
+          "nonCompliant": 2,
+          "notApplicable": 48,
+          "total": 90
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 160,
+          "nonCompliant": 2,
+          "notApplicable": 18,
+          "total": 180
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 50,
+          "nonCompliant": 4,
+          "notApplicable": 18,
+          "total": 72
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 204,
+          "nonCompliant": 2,
+          "notApplicable": 46,
+          "total": 252
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 65,
+          "nonCompliant": 3,
+          "notApplicable": 166,
+          "total": 234
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 143,
+          "nonCompliant": 1,
+          "notApplicable": 54,
+          "total": 198
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 36,
+          "nonCompliant": 3,
+          "notApplicable": 213,
+          "total": 252
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 54,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 54
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 108,
+          "total": 108
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 54,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 54
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 198,
+          "total": 198
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 4
+      },
+      "bestTheme": {
+        "number": "3",
+        "compliantCount": 54
+      },
+      "screenshot": "screenshots/76.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 14,
+          "auditedAt": "2020-11-03",
+          "complianceRate": 50
+        }
+      ],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://guichet.public.lu/fr/citoyens/support/accessibilite.html",
+        "createdUpdated": "2025-01-03"
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        56,
+        6,
+        46,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 47,
+      "name": "Portail national des enquêtes publiques",
+      "lang": "fr",
+      "homeUri": "https://enquetes.public.lu/fr.html",
+      "auditedAt": "2023-07-10",
+      "assessedLevel": "AA",
+      "complianceRate": 77,
+      "sector": "other",
+      "administrativeLevel": "State",
+      "pageCount": 13,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 11,
+          "nonCompliant": 0,
+          "notApplicable": 106,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 26,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 21,
+          "nonCompliant": 14,
+          "notApplicable": 4,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 2,
+          "nonCompliant": 5,
+          "notApplicable": 162,
+          "total": 169
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 104,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 25,
+          "nonCompliant": 1,
+          "notApplicable": 0,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 4,
+          "nonCompliant": 2,
+          "notApplicable": 59,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 88,
+          "nonCompliant": 5,
+          "notApplicable": 37,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 32,
+          "nonCompliant": 5,
+          "notApplicable": 15,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 111,
+          "nonCompliant": 16,
+          "notApplicable": 55,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 34,
+          "nonCompliant": 0,
+          "notApplicable": 135,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 117,
+          "nonCompliant": 0,
+          "notApplicable": 26,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 28,
+          "nonCompliant": 1,
+          "notApplicable": 127,
+          "total": 156
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 16
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 117
+      },
+      "screenshot": "screenshots/47.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://enquetes.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2023-12-01"
+      },
+      "comparablePairsWith": [
+        106,
+        39,
+        56,
+        6,
+        46,
+        100,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 51,
+      "name": "Inspection du Travail et des Mines - Luxembourg",
+      "lang": "fr",
+      "homeUri": "https://itm.public.lu/fr.html",
+      "auditedAt": "2023-07-31",
+      "assessedLevel": "AA",
+      "complianceRate": 73,
+      "sector": "employment and taxes",
+      "administrativeLevel": "State",
+      "pageCount": 13,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 3,
+          "nonCompliant": 4,
+          "notApplicable": 110,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 26,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 18,
+          "nonCompliant": 10,
+          "notApplicable": 11,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 169,
+          "total": 169
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 8,
+          "nonCompliant": 0,
+          "notApplicable": 96,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 24,
+          "nonCompliant": 2,
+          "notApplicable": 0,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 24,
+          "nonCompliant": 2,
+          "notApplicable": 39,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 112,
+          "nonCompliant": 5,
+          "notApplicable": 13,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 32,
+          "nonCompliant": 7,
+          "notApplicable": 13,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 106,
+          "nonCompliant": 10,
+          "notApplicable": 66,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 15,
+          "nonCompliant": 1,
+          "notApplicable": 153,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 118,
+          "nonCompliant": 0,
+          "notApplicable": 25,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 41,
+          "nonCompliant": 3,
+          "notApplicable": 112,
+          "total": 156
+        }
+      },
+      "worstTheme": {
+        "number": "3",
+        "nonCompliantCount": 10
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 118
+      },
+      "screenshot": "screenshots/51.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://itm.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-02-04"
+      },
+      "comparablePairsWith": [
+        35,
+        80
+      ]
+    },
+    {
+      "auditId": 46,
+      "name": "Portail des marchés publics",
+      "lang": "fr",
+      "homeUri": "https://marches.public.lu/fr.html",
+      "auditedAt": "2023-03-22",
+      "assessedLevel": "AA",
+      "complianceRate": 89,
+      "sector": "other",
+      "administrativeLevel": "State",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 124,
+          "total": 126
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 28,
+          "total": 28
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 26,
+          "nonCompliant": 9,
+          "notApplicable": 7,
+          "total": 42
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 182,
+          "total": 182
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 112,
+          "total": 112
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 26,
+          "nonCompliant": 0,
+          "notApplicable": 2,
+          "total": 28
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 6,
+          "nonCompliant": 0,
+          "notApplicable": 64,
+          "total": 70
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 94,
+          "nonCompliant": 4,
+          "notApplicable": 42,
+          "total": 140
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 29,
+          "nonCompliant": 0,
+          "notApplicable": 27,
+          "total": 56
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 132,
+          "nonCompliant": 4,
+          "notApplicable": 60,
+          "total": 196
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 15,
+          "nonCompliant": 0,
+          "notApplicable": 167,
+          "total": 182
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 127,
+          "nonCompliant": 1,
+          "notApplicable": 26,
+          "total": 154
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 29,
+          "nonCompliant": 2,
+          "notApplicable": 137,
+          "total": 168
+        }
+      },
+      "worstTheme": {
+        "number": "3",
+        "nonCompliantCount": 9
+      },
+      "bestTheme": {
+        "number": "9",
+        "compliantCount": 29
+      },
+      "screenshot": "screenshots/46.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://marches.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2023-09-07"
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        56,
+        6,
+        76,
+        47,
+        100,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 93,
+      "name": "Centre commun de la sécurité sociale",
+      "lang": "fr",
+      "homeUri": "https://ccss.public.lu/fr.html",
+      "auditedAt": "2025-07-29",
+      "assessedLevel": "AA",
+      "complianceRate": 89,
+      "sector": "social protection",
+      "administrativeLevel": "State",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 16,
+          "nonCompliant": 0,
+          "notApplicable": 110,
+          "total": 126
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 28,
+          "total": 28
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 31,
+          "nonCompliant": 0,
+          "notApplicable": 11,
+          "total": 42
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 252,
+          "total": 252
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 108,
+          "total": 112
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 28,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 28
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 7,
+          "nonCompliant": 0,
+          "notApplicable": 63,
+          "total": 70
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 101,
+          "nonCompliant": 2,
+          "notApplicable": 37,
+          "total": 140
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 36,
+          "nonCompliant": 4,
+          "notApplicable": 16,
+          "total": 56
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 111,
+          "nonCompliant": 4,
+          "notApplicable": 81,
+          "total": 196
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 24,
+          "nonCompliant": 1,
+          "notApplicable": 157,
+          "total": 182
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 120,
+          "nonCompliant": 0,
+          "notApplicable": 34,
+          "total": 154
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 29,
+          "nonCompliant": 3,
+          "notApplicable": 164,
+          "total": 196
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 40,
+          "total": 42
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 84,
+          "total": 84
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 40,
+          "total": 42
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 154,
+          "total": 154
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 4
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 120
+      },
+      "screenshot": "screenshots/93.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://ccss.public.lu/fr/support/accessibilite.html ",
+        "createdUpdated": "2025-10-29"
+      },
+      "comparablePairsWith": [
+        55,
+        29
+      ]
+    },
+    {
+      "auditId": 85,
+      "name": "Accessibilité infrastructure - Luxembourg",
+      "lang": "fr",
+      "homeUri": "https://accessibilite-infrastructure.public.lu/fr.html",
+      "auditedAt": "2025-03-27",
+      "assessedLevel": "AA",
+      "complianceRate": 86,
+      "sector": "social protection",
+      "administrativeLevel": "State",
+      "pageCount": 12,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 8,
+          "nonCompliant": 0,
+          "notApplicable": 100,
+          "total": 108
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 24,
+          "total": 24
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 36,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 36
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 216,
+          "total": 216
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 96,
+          "total": 96
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 24,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 24
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 1,
+          "nonCompliant": 3,
+          "notApplicable": 56,
+          "total": 60
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 83,
+          "nonCompliant": 1,
+          "notApplicable": 36,
+          "total": 120
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 33,
+          "nonCompliant": 3,
+          "notApplicable": 12,
+          "total": 48
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 96,
+          "nonCompliant": 6,
+          "notApplicable": 66,
+          "total": 168
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 26,
+          "nonCompliant": 0,
+          "notApplicable": 130,
+          "total": 156
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 101,
+          "nonCompliant": 0,
+          "notApplicable": 31,
+          "total": 132
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 40,
+          "nonCompliant": 0,
+          "notApplicable": 128,
+          "total": 168
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 2,
+          "nonCompliant": 1,
+          "notApplicable": 33,
+          "total": 36
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 72,
+          "total": 72
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 3,
+          "nonCompliant": 0,
+          "notApplicable": 33,
+          "total": 36
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 132,
+          "total": 132
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 6
+      },
+      "bestTheme": {
+        "number": "12",
+        "compliantCount": 101
+      },
+      "screenshot": "screenshots/85.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://accessibilite-infrastructure.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-06-06"
+      },
+      "comparablePairsWith": [
+        55,
+        29
+      ]
+    },
+    {
+      "auditId": 100,
+      "name": "Portail du Grand-Duché de Luxembourg",
+      "lang": "fr",
+      "homeUri": "https://luxembourg.public.lu/fr.html",
+      "auditedAt": "2025-11-07",
+      "assessedLevel": "AA",
+      "complianceRate": 82,
+      "sector": "other",
+      "administrativeLevel": "State",
+      "pageCount": 18,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 59,
+          "nonCompliant": 6,
+          "notApplicable": 97,
+          "total": 162
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 14,
+          "nonCompliant": 0,
+          "notApplicable": 22,
+          "total": 36
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 37,
+          "nonCompliant": 1,
+          "notApplicable": 16,
+          "total": 54
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 15,
+          "nonCompliant": 14,
+          "notApplicable": 295,
+          "total": 324
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 140,
+          "total": 144
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 36,
+          "nonCompliant": 0,
+          "notApplicable": 0,
+          "total": 36
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 34,
+          "nonCompliant": 2,
+          "notApplicable": 54,
+          "total": 90
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 159,
+          "nonCompliant": 3,
+          "notApplicable": 18,
+          "total": 180
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 54,
+          "nonCompliant": 1,
+          "notApplicable": 17,
+          "total": 72
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 189,
+          "nonCompliant": 0,
+          "notApplicable": 63,
+          "total": 252
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 144,
+          "nonCompliant": 0,
+          "notApplicable": 90,
+          "total": 234
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 163,
+          "nonCompliant": 0,
+          "notApplicable": 35,
+          "total": 198
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 55,
+          "nonCompliant": 2,
+          "notApplicable": 195,
+          "total": 252
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 52,
+          "total": 54
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 108,
+          "total": 108
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 52,
+          "total": 54
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 198,
+          "total": 198
+        }
+      },
+      "worstTheme": {
+        "number": "4",
+        "nonCompliantCount": 14
+      },
+      "bestTheme": {
+        "number": "10",
+        "compliantCount": 189
+      },
+      "screenshot": "screenshots/100.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://luxembourg.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2025-12-16"
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        56,
+        6,
+        47,
+        46,
+        97,
+        67
+      ]
+    },
+    {
+      "auditId": 97,
+      "name": "Guichet Unique PME",
+      "lang": "fr",
+      "homeUri": "https://gupme.lu/fr/",
+      "auditedAt": "2025-07-16",
+      "assessedLevel": "AA",
+      "complianceRate": 42,
+      "sector": "other",
+      "administrativeLevel": "State",
+      "pageCount": 13,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 12,
+          "nonCompliant": 7,
+          "notApplicable": 98,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 25,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 27,
+          "nonCompliant": 8,
+          "notApplicable": 4,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 1,
+          "nonCompliant": 0,
+          "notApplicable": 233,
+          "total": 234
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 104,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 22,
+          "nonCompliant": 4,
+          "notApplicable": 0,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 23,
+          "nonCompliant": 3,
+          "notApplicable": 39,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 92,
+          "nonCompliant": 8,
+          "notApplicable": 30,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 29,
+          "nonCompliant": 10,
+          "notApplicable": 13,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 106,
+          "nonCompliant": 12,
+          "notApplicable": 64,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 5,
+          "nonCompliant": 2,
+          "notApplicable": 162,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 50,
+          "nonCompliant": 4,
+          "notApplicable": 89,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 39,
+          "nonCompliant": 1,
+          "notApplicable": 142,
+          "total": 182
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 39,
+          "total": 39
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 78,
+          "total": 78
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 39,
+          "total": 39
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 143,
+          "total": 143
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 12
+      },
+      "bestTheme": {
+        "number": "4",
+        "compliantCount": 1
+      },
+      "screenshot": "screenshots/97.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        76,
+        47,
+        46,
+        100
+      ]
+    },
+    {
+      "auditId": 74,
+      "name": "Govjobs",
+      "lang": "en",
+      "homeUri": "https://govjobs.public.lu/fr.html",
+      "auditedAt": "2024-08-19",
+      "assessedLevel": "AA",
+      "complianceRate": 71,
+      "sector": "employment and taxes",
+      "administrativeLevel": "State",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 10,
+          "nonCompliant": 5,
+          "notApplicable": 111,
+          "total": 126
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 2,
+          "notApplicable": 24,
+          "total": 28
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 21,
+          "nonCompliant": 0,
+          "notApplicable": 21,
+          "total": 42
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 16,
+          "nonCompliant": 1,
+          "notApplicable": 235,
+          "total": 252
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 112,
+          "total": 112
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 25,
+          "nonCompliant": 1,
+          "notApplicable": 2,
+          "total": 28
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 7,
+          "nonCompliant": 5,
+          "notApplicable": 58,
+          "total": 70
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 89,
+          "nonCompliant": 12,
+          "notApplicable": 39,
+          "total": 140
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 33,
+          "nonCompliant": 9,
+          "notApplicable": 14,
+          "total": 56
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 109,
+          "nonCompliant": 10,
+          "notApplicable": 77,
+          "total": 196
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 23,
+          "nonCompliant": 2,
+          "notApplicable": 157,
+          "total": 182
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 125,
+          "nonCompliant": 2,
+          "notApplicable": 27,
+          "total": 154
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 24,
+          "nonCompliant": 1,
+          "notApplicable": 171,
+          "total": 196
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 1,
+          "nonCompliant": 0,
+          "notApplicable": 41,
+          "total": 42
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 84,
+          "total": 84
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 40,
+          "total": 42
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 154,
+          "total": 154
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 12
+      },
+      "bestTheme": {
+        "number": "3",
+        "compliantCount": 21
+      },
+      "screenshot": "screenshots/74.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://govjobs.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2024-09-24"
+      },
+      "comparablePairsWith": [
+        87,
+        35,
+        80
+      ]
+    },
+    {
+      "auditId": 4,
+      "name": "Centre Hospitalier du Luxembourg (CHL)",
+      "lang": "fr",
+      "homeUri": "https://www.chl.lu/fr/",
+      "auditedAt": "2021-09-20",
+      "assessedLevel": "AA",
+      "complianceRate": 41,
+      "sector": "health",
+      "administrativeLevel": "Others",
+      "pageCount": 15,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 14,
+          "nonCompliant": 2,
+          "notApplicable": 119,
+          "total": 135
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 28,
+          "total": 30
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 2,
+          "nonCompliant": 27,
+          "notApplicable": 16,
+          "total": 45
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 195,
+          "total": 195
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 120,
+          "total": 120
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 18,
+          "nonCompliant": 4,
+          "notApplicable": 8,
+          "total": 30
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 2,
+          "nonCompliant": 7,
+          "notApplicable": 66,
+          "total": 75
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 97,
+          "nonCompliant": 13,
+          "notApplicable": 40,
+          "total": 150
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 19,
+          "nonCompliant": 19,
+          "notApplicable": 22,
+          "total": 60
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 99,
+          "nonCompliant": 19,
+          "notApplicable": 92,
+          "total": 210
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 59,
+          "nonCompliant": 19,
+          "notApplicable": 117,
+          "total": 195
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 56,
+          "nonCompliant": 8,
+          "notApplicable": 101,
+          "total": 165
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 29,
+          "nonCompliant": 3,
+          "notApplicable": 148,
+          "total": 180
+        }
+      },
+      "worstTheme": {
+        "number": "3",
+        "nonCompliantCount": 27
+      },
+      "bestTheme": {
+        "number": "2",
+        "compliantCount": 2
+      },
+      "screenshot": "screenshots/4.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        101,
+        50
+      ]
+    },
+    {
+      "auditId": 18,
+      "name": "Coronavirus - informations officielles",
+      "lang": "fr",
+      "homeUri": "https://covid19.public.lu/fr.html",
+      "auditedAt": "2022-03-21",
+      "assessedLevel": "AA",
+      "complianceRate": 66,
+      "sector": null,
+      "administrativeLevel": null,
+      "pageCount": 13,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 0,
+          "nonCompliant": 5,
+          "notApplicable": 112,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 24,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 17,
+          "nonCompliant": 4,
+          "notApplicable": 18,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 3,
+          "nonCompliant": 1,
+          "notApplicable": 165,
+          "total": 169
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 5,
+          "nonCompliant": 2,
+          "notApplicable": 97,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 20,
+          "nonCompliant": 2,
+          "notApplicable": 4,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 6,
+          "nonCompliant": 2,
+          "notApplicable": 57,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 95,
+          "nonCompliant": 10,
+          "notApplicable": 25,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 34,
+          "nonCompliant": 5,
+          "notApplicable": 13,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 124,
+          "nonCompliant": 2,
+          "notApplicable": 56,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 13,
+          "nonCompliant": 2,
+          "notApplicable": 154,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 116,
+          "nonCompliant": 2,
+          "notApplicable": 25,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 39,
+          "nonCompliant": 0,
+          "notApplicable": 117,
+          "total": 156
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 10
+      },
+      "bestTheme": {
+        "number": "13",
+        "compliantCount": 39
+      },
+      "screenshot": "screenshots/18.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": []
+    },
+    {
+      "auditId": 44,
+      "name": "Luxembourg Institute of Health (LIH)",
+      "lang": "en",
+      "homeUri": "https://www.lih.lu/fr/",
+      "auditedAt": "2023-03-27",
+      "assessedLevel": "AA",
+      "complianceRate": 41,
+      "sector": "health",
+      "administrativeLevel": "Others",
+      "pageCount": 13,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 7,
+          "nonCompliant": 7,
+          "notApplicable": 103,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 5,
+          "nonCompliant": 1,
+          "notApplicable": 20,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 9,
+          "nonCompliant": 15,
+          "notApplicable": 15,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 14,
+          "nonCompliant": 2,
+          "notApplicable": 153,
+          "total": 169
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 1,
+          "nonCompliant": 0,
+          "notApplicable": 103,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 21,
+          "nonCompliant": 5,
+          "notApplicable": 0,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 1,
+          "nonCompliant": 6,
+          "notApplicable": 58,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 66,
+          "nonCompliant": 29,
+          "notApplicable": 35,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 19,
+          "nonCompliant": 9,
+          "notApplicable": 24,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 83,
+          "nonCompliant": 22,
+          "notApplicable": 77,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 16,
+          "nonCompliant": 18,
+          "notApplicable": 135,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 67,
+          "nonCompliant": 7,
+          "notApplicable": 69,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 40,
+          "nonCompliant": 5,
+          "notApplicable": 111,
+          "total": 156
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 29
+      },
+      "bestTheme": {
+        "number": "5",
+        "compliantCount": 1
+      },
+      "screenshot": "screenshots/44.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.lih.lu/en/accessibility-statement/",
+        "createdUpdated": "2024-01-26"
+      },
+      "comparablePairsWith": [
+        101,
+        50
+      ]
+    },
+    {
+      "auditId": 29,
+      "name": "Caisse pour l'avenir des enfants",
+      "lang": "fr",
+      "homeUri": "https://cae.public.lu/fr.html",
+      "auditedAt": "2022-07-20",
+      "assessedLevel": "AA",
+      "complianceRate": 66,
+      "sector": "social protection",
+      "administrativeLevel": "State",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 4,
+          "nonCompliant": 1,
+          "notApplicable": 121,
+          "total": 126
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 28,
+          "total": 28
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 36,
+          "nonCompliant": 6,
+          "notApplicable": 0,
+          "total": 42
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 182,
+          "total": 182
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 112,
+          "total": 112
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 24,
+          "nonCompliant": 4,
+          "notApplicable": 0,
+          "total": 28
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 7,
+          "nonCompliant": 1,
+          "notApplicable": 62,
+          "total": 70
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 107,
+          "nonCompliant": 13,
+          "notApplicable": 20,
+          "total": 140
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 31,
+          "nonCompliant": 9,
+          "notApplicable": 16,
+          "total": 56
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 144,
+          "nonCompliant": 1,
+          "notApplicable": 51,
+          "total": 196
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 17,
+          "nonCompliant": 5,
+          "notApplicable": 160,
+          "total": 182
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 125,
+          "nonCompliant": 3,
+          "notApplicable": 26,
+          "total": 154
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 28,
+          "nonCompliant": 1,
+          "notApplicable": 139,
+          "total": 168
+        }
+      },
+      "worstTheme": {
+        "number": "8",
+        "nonCompliantCount": 13
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/29.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://cae.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2022-12-02"
+      },
+      "comparablePairsWith": [
+        63,
+        55,
+        93,
+        85
+      ]
+    },
+    {
+      "auditId": 67,
+      "name": "Ville d'Esch - Esch Administration",
+      "lang": "fr",
+      "homeUri": "https://administration.esch.lu/",
+      "auditedAt": "2024-07-09",
+      "assessedLevel": "AA",
+      "complianceRate": 39,
+      "sector": "other",
+      "administrativeLevel": "Cities",
+      "pageCount": 15,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 16,
+          "nonCompliant": 1,
+          "notApplicable": 118,
+          "total": 135
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 30,
+          "total": 30
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 24,
+          "nonCompliant": 7,
+          "notApplicable": 14,
+          "total": 45
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 270,
+          "total": 270
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 3,
+          "nonCompliant": 3,
+          "notApplicable": 114,
+          "total": 120
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 23,
+          "nonCompliant": 7,
+          "notApplicable": 0,
+          "total": 30
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 25,
+          "nonCompliant": 14,
+          "notApplicable": 36,
+          "total": 75
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 114,
+          "nonCompliant": 6,
+          "notApplicable": 30,
+          "total": 150
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 23,
+          "nonCompliant": 14,
+          "notApplicable": 23,
+          "total": 60
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 134,
+          "nonCompliant": 18,
+          "notApplicable": 58,
+          "total": 210
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 10,
+          "nonCompliant": 11,
+          "notApplicable": 174,
+          "total": 195
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 103,
+          "nonCompliant": 2,
+          "notApplicable": 60,
+          "total": 165
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 45,
+          "nonCompliant": 3,
+          "notApplicable": 162,
+          "total": 210
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 14,
+          "nonCompliant": 1,
+          "notApplicable": 30,
+          "total": 45
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 90,
+          "total": 90
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 14,
+          "nonCompliant": 1,
+          "notApplicable": 30,
+          "total": 45
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 165,
+          "total": 165
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 18
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/67.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        106,
+        41,
+        39,
+        56,
+        6,
+        76,
+        47,
+        46,
+        100
+      ]
+    },
+    {
+      "auditId": 80,
+      "name": "Portail de l'emploi",
+      "lang": "fr",
+      "homeUri": "https://adem.public.lu/fr.html",
+      "auditedAt": "2024-10-22",
+      "assessedLevel": "AA",
+      "complianceRate": 64,
+      "sector": "employment and taxes",
+      "administrativeLevel": "Others",
+      "pageCount": 16,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 15,
+          "nonCompliant": 4,
+          "notApplicable": 125,
+          "total": 144
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 31,
+          "total": 32
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 40,
+          "nonCompliant": 2,
+          "notApplicable": 6,
+          "total": 48
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 284,
+          "total": 288
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 4,
+          "nonCompliant": 0,
+          "notApplicable": 124,
+          "total": 128
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 26,
+          "nonCompliant": 6,
+          "notApplicable": 0,
+          "total": 32
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 30,
+          "nonCompliant": 2,
+          "notApplicable": 48,
+          "total": 80
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 112,
+          "nonCompliant": 5,
+          "notApplicable": 43,
+          "total": 160
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 36,
+          "nonCompliant": 12,
+          "notApplicable": 16,
+          "total": 64
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 175,
+          "nonCompliant": 4,
+          "notApplicable": 45,
+          "total": 224
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 55,
+          "nonCompliant": 5,
+          "notApplicable": 148,
+          "total": 208
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 141,
+          "nonCompliant": 3,
+          "notApplicable": 32,
+          "total": 176
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 50,
+          "nonCompliant": 1,
+          "notApplicable": 173,
+          "total": 224
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 31,
+          "nonCompliant": 1,
+          "notApplicable": 16,
+          "total": 48
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 96,
+          "total": 96
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 46,
+          "total": 48
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 176,
+          "total": 176
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 12
+      },
+      "bestTheme": {
+        "number": "4",
+        "compliantCount": 4
+      },
+      "screenshot": "screenshots/80.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 1,
+          "auditedAt": "2020-11-02",
+          "complianceRate": 54
+        }
+      ],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://adem.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2026-05-26"
+      },
+      "comparablePairsWith": [
+        87,
+        35,
+        51,
+        74
+      ]
+    },
+    {
+      "auditId": 102,
+      "name": "SNHBM - Société nationale des habitations à bon marché",
+      "lang": "fr",
+      "homeUri": "https://snhbm.lu/",
+      "auditedAt": "2025-09-10",
+      "assessedLevel": "AA",
+      "complianceRate": 39,
+      "sector": "housing and community amenities",
+      "administrativeLevel": "Others",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 3,
+          "nonCompliant": 12,
+          "notApplicable": 102,
+          "total": 117
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 7,
+          "nonCompliant": 1,
+          "notApplicable": 18,
+          "total": 26
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 21,
+          "nonCompliant": 9,
+          "notApplicable": 9,
+          "total": 39
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 6,
+          "nonCompliant": 11,
+          "notApplicable": 217,
+          "total": 234
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 2,
+          "nonCompliant": 2,
+          "notApplicable": 100,
+          "total": 104
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 16,
+          "nonCompliant": 8,
+          "notApplicable": 2,
+          "total": 26
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 17,
+          "nonCompliant": 9,
+          "notApplicable": 39,
+          "total": 65
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 83,
+          "nonCompliant": 9,
+          "notApplicable": 38,
+          "total": 130
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 19,
+          "nonCompliant": 20,
+          "notApplicable": 13,
+          "total": 52
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 99,
+          "nonCompliant": 22,
+          "notApplicable": 61,
+          "total": 182
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 14,
+          "nonCompliant": 15,
+          "notApplicable": 140,
+          "total": 169
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 37,
+          "nonCompliant": 4,
+          "notApplicable": 102,
+          "total": 143
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 39,
+          "nonCompliant": 3,
+          "notApplicable": 140,
+          "total": 182
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 39,
+          "total": 39
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 78,
+          "total": 78
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 12,
+          "nonCompliant": 1,
+          "notApplicable": 26,
+          "total": 39
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 143,
+          "total": 143
+        }
+      },
+      "worstTheme": {
+        "number": "10",
+        "nonCompliantCount": 22
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/102.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [
+        {
+          "auditId": 8,
+          "auditedAt": "2021-07-01",
+          "complianceRate": 33
+        }
+      ],
+      "statement": {
+        "found": false
+      },
+      "comparablePairsWith": [
+        52
+      ]
+    },
+    {
+      "auditId": 10,
+      "name": "Police Grand-Ducale",
+      "lang": "fr",
+      "homeUri": "https://police.public.lu/fr.html",
+      "auditedAt": "2021-09-08",
+      "assessedLevel": "AA",
+      "complianceRate": 62,
+      "sector": "public order and safety",
+      "administrativeLevel": "State",
+      "pageCount": 15,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 4,
+          "nonCompliant": 5,
+          "notApplicable": 126,
+          "total": 135
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 2,
+          "notApplicable": 28,
+          "total": 30
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 1,
+          "nonCompliant": 14,
+          "notApplicable": 30,
+          "total": 45
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 2,
+          "nonCompliant": 1,
+          "notApplicable": 192,
+          "total": 195
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 2,
+          "nonCompliant": 0,
+          "notApplicable": 118,
+          "total": 120
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 25,
+          "nonCompliant": 2,
+          "notApplicable": 3,
+          "total": 30
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 2,
+          "nonCompliant": 2,
+          "notApplicable": 71,
+          "total": 75
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 105,
+          "nonCompliant": 12,
+          "notApplicable": 33,
+          "total": 150
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 25,
+          "nonCompliant": 6,
+          "notApplicable": 29,
+          "total": 60
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 127,
+          "nonCompliant": 7,
+          "notApplicable": 76,
+          "total": 210
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 19,
+          "nonCompliant": 7,
+          "notApplicable": 169,
+          "total": 195
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 119,
+          "nonCompliant": 3,
+          "notApplicable": 43,
+          "total": 165
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 30,
+          "nonCompliant": 0,
+          "notApplicable": 150,
+          "total": 180
+        }
+      },
+      "worstTheme": {
+        "number": "3",
+        "nonCompliantCount": 14
+      },
+      "bestTheme": {
+        "number": "13",
+        "compliantCount": 30
+      },
+      "screenshot": "screenshots/10.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://police.public.lu/fr/support/accessibilite.html",
+        "createdUpdated": "2022-04-04"
+      },
+      "comparablePairsWith": [
+        71
+      ]
+    },
+    {
+      "auditId": 68,
+      "name": "Fonds du Logement",
+      "lang": "fr",
+      "homeUri": "https://fondsdulogement.lu/fr",
+      "auditedAt": "2024-08-01",
+      "assessedLevel": "AA",
+      "complianceRate": 38,
+      "sector": "housing and community amenities",
+      "administrativeLevel": "Others",
+      "pageCount": 14,
+      "themeStats": {
+        "1": {
+          "title": "Images",
+          "compliant": 10,
+          "nonCompliant": 3,
+          "notApplicable": 113,
+          "total": 126
+        },
+        "2": {
+          "title": "Frames",
+          "compliant": 0,
+          "nonCompliant": 1,
+          "notApplicable": 27,
+          "total": 28
+        },
+        "3": {
+          "title": "Colours",
+          "compliant": 21,
+          "nonCompliant": 7,
+          "notApplicable": 14,
+          "total": 42
+        },
+        "4": {
+          "title": "Multimedia",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 252,
+          "total": 252
+        },
+        "5": {
+          "title": "Tables",
+          "compliant": 3,
+          "nonCompliant": 1,
+          "notApplicable": 108,
+          "total": 112
+        },
+        "6": {
+          "title": "Links",
+          "compliant": 25,
+          "nonCompliant": 3,
+          "notApplicable": 0,
+          "total": 28
+        },
+        "7": {
+          "title": "Scripts",
+          "compliant": 25,
+          "nonCompliant": 4,
+          "notApplicable": 41,
+          "total": 70
+        },
+        "8": {
+          "title": "Mandatory elements",
+          "compliant": 94,
+          "nonCompliant": 8,
+          "notApplicable": 38,
+          "total": 140
+        },
+        "9": {
+          "title": "Information structure",
+          "compliant": 30,
+          "nonCompliant": 13,
+          "notApplicable": 13,
+          "total": 56
+        },
+        "10": {
+          "title": "Presentation of information",
+          "compliant": 117,
+          "nonCompliant": 13,
+          "notApplicable": 66,
+          "total": 196
+        },
+        "11": {
+          "title": "Forms",
+          "compliant": 63,
+          "nonCompliant": 13,
+          "notApplicable": 106,
+          "total": 182
+        },
+        "12": {
+          "title": "Navigation",
+          "compliant": 93,
+          "nonCompliant": 2,
+          "notApplicable": 59,
+          "total": 154
+        },
+        "13": {
+          "title": "Consultation",
+          "compliant": 43,
+          "nonCompliant": 2,
+          "notApplicable": 151,
+          "total": 196
+        },
+        "14": {
+          "title": "Documentation and accessibility features",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 42,
+          "total": 42
+        },
+        "15": {
+          "title": "Editing tools",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 84,
+          "total": 84
+        },
+        "16": {
+          "title": "Support services",
+          "compliant": 13,
+          "nonCompliant": 1,
+          "notApplicable": 28,
+          "total": 42
+        },
+        "17": {
+          "title": "Real-time communication",
+          "compliant": 0,
+          "nonCompliant": 0,
+          "notApplicable": 154,
+          "total": 154
+        }
+      },
+      "worstTheme": {
+        "number": "9",
+        "nonCompliantCount": 13
+      },
+      "bestTheme": null,
+      "screenshot": "screenshots/68.jpg",
+      "screenshotCapturedAt": "2026-07-01",
+      "previousAudits": [],
+      "statement": {
+        "found": true,
+        "compliance": "partial",
+        "uri": "https://www.fondsdulogement.lu/fr/accessibilite",
+        "createdUpdated": "2019-12-17"
+      },
+      "comparablePairsWith": [
+        52
+      ]
+    }
+  ]
+}

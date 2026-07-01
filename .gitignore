@@ -1,0 +1,5 @@
+node_modules/
+data/raw-cache/
+data/screenshot-failures.json
+.DS_Store
+npm-debug.log*
